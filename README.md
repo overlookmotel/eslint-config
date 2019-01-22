@@ -9,7 +9,8 @@
 
 ## Usage
 
-This module is under development and not ready for use yet.
+* Include `@overlookmotel/eslint-config` as a dev dependency
+* Add to `.eslintrc`: `"extends": "@overlookmotel/eslint-config"`
 
 ## Tests
 
@@ -17,7 +18,7 @@ Use `npm test` to run the tests. Use `npm run cover` to check coverage.
 
 ## Changelog
 
-See [changelog.md](https://github.com/overlookmotel/@overlookmotel/eslint-config/blob/master/changelog.md)
+See [changelog.md](https://github.com/overlookmotel/eslint-config/blob/master/changelog.md)
 
 ## Issues
 
