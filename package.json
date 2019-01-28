@@ -20,6 +20,7 @@
     "eslint-plugin-eslint-comments": "^3.0.1"
   },
   "devDependencies": {
+    "@overlookmotel/eslint-config-tests": "^1.0.2",
     "chai": "^4.2.0",
     "coveralls": "^3.0.2",
     "cross-env": "^5.2.0",
