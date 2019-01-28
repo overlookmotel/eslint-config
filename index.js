@@ -46,6 +46,14 @@ module.exports = {
 		'no-shadow-restricted-names': ['error'],
 		'space-before-function-paren': ['error', {anonymous: 'never', named: 'never', asyncArrow: 'always'}],
 		'keyword-spacing': ['error'],
+		'max-len': ['error', {
+			code: 105,
+			tabWidth: 4,
+			ignoreStrings: true,
+			ignoreTemplateLiterals: true,
+			ignoreRegExpLiterals: true,
+			ignoreUrls: true
+		}],
 
 		// eslint-comments rules
 		'eslint-comments/no-unused-disable': ['error'],
