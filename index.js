@@ -15,7 +15,8 @@ module.exports = {
 		sourceType: 'module'
 	},
 	extends: [
-		'eslint:recommended'
+		'eslint:recommended',
+		'plugin:eslint-comments/recommended'
 	],
 	rules: {
 		// Basic rules
@@ -44,6 +45,10 @@ module.exports = {
 		'no-eval': ['error'],
 		'no-shadow-restricted-names': ['error'],
 		'space-before-function-paren': ['error', {anonymous: 'never', named: 'never', asyncArrow: 'always'}],
-		'keyword-spacing': ['error']
+		'keyword-spacing': ['error'],
+
+		// eslint-comments rules
+		'eslint-comments/no-unused-disable': ['error'],
+		'eslint-comments/disable-enable-pair': ['error', {allowWholeFile: true}]
 	}
 };

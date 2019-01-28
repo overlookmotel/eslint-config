@@ -16,7 +16,8 @@
   "dependencies": {
   },
   "peerDependencies": {
-    "eslint": "^5.12.1"
+    "eslint": "^5.12.1",
+    "eslint-plugin-eslint-comments": "^3.0.1"
   },
   "devDependencies": {
     "chai": "^4.2.0",
