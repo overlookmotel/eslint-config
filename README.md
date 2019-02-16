@@ -9,8 +9,13 @@
 
 ## Usage
 
-* Include `@overlookmotel/eslint-config` as a dev dependency
-* Add to `.eslintrc`: `"extends": "@overlookmotel/eslint-config"`
+Add dev dependencies in `package.json`:
+
+* `@overlookmotel/eslint-config`
+* `eslint`
+* `eslint-plugin-eslint-comments`
+
+Add to `.eslintrc`: `"extends": "@overlookmotel/eslint-config"`
 
 ## Tests
 
@@ -31,3 +36,4 @@ Pull requests are very welcome. Please:
 * ensure all tests pass before submitting PR
 * add tests for new features
 * document new functionality/API additions in README
+* do not add an entry to Changelog (Changelog is created when cutting releases)
