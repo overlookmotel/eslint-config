@@ -7,13 +7,17 @@
 
 # @overlookmotel's ESLint config
 
+ESLint config for NodeJS apps/libraries. Based on [eslint-config-airbnb-base](https://www.npmjs.com/package/eslint-config-airbnb-base) with some modifications.
+
 ## Usage
 
 Add dev dependencies in `package.json`:
 
 * `@overlookmotel/eslint-config`
 * `eslint`
+* `eslint-config-airbnb-base`
 * `eslint-plugin-eslint-comments`
+* `eslint-plugin-import`
 
 Add to `.eslintrc`: `"extends": "@overlookmotel/eslint-config"`
 

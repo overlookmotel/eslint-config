@@ -7,45 +7,17 @@
 // Exports
 module.exports = {
 	env: {
-		node: true,
-		es6: true
+		node: true
 	},
 	parserOptions: {
-		ecmaVersion: 2018,
-		sourceType: 'module'
+		sourceType: 'script'
 	},
 	extends: [
-		'eslint:recommended',
+		'airbnb-base',
 		'plugin:eslint-comments/recommended'
 	],
 	rules: {
-		// Basic rules
-		indent: ['error', 'tab'],
-		'linebreak-style': ['error', 'unix'],
-		quotes: ['error', 'single'],
-		semi: ['error', 'always'],
-
-		// Enable all "Possible Errors" rules not already enabled in `eslint:recommended`
-		// https://eslint.org/docs/rules/#possible-errors
-		'no-async-promise-executor': ['error'],
-		'no-extra-parens': ['error'],
-		'no-misleading-character-class': ['error'],
-		'no-prototype-builtins': ['error'],
-		'no-template-curly-in-string': ['error'],
-		'require-atomic-updates': ['error'],
-		'valid-jsdoc': ['error'],
-
-		// Various other rules
-		'eqeqeq': ['error', 'always', {null: 'ignore'}],
-		'no-use-before-define': ['error', {functions: false}],
-		'no-unused-expressions': ['error'],
-		'no-var': ['error'],
-		'no-loop-func': ['error'],
-		'no-useless-call': ['error'],
-		'no-eval': ['error'],
-		'no-shadow-restricted-names': ['error'],
-		'space-before-function-paren': ['error', {anonymous: 'never', named: 'never', asyncArrow: 'always'}],
-		'keyword-spacing': ['error'],
+		// Alterations of airbnb rules
 		'max-len': ['error', {
 			code: 105,
 			tabWidth: 4,
@@ -53,6 +25,37 @@ module.exports = {
 			ignoreTemplateLiterals: true,
 			ignoreRegExpLiterals: true,
 			ignoreUrls: true
+		}],
+		indent: ['error', 'tab'],
+		'no-tabs': ['error', {allowIndentationTabs: true}],
+		'comma-dangle': ['error', 'never'],
+		'object-curly-spacing': ['error', 'never'],
+		'one-var': ['off'],
+		'no-plusplus': ['off'],
+		'no-restricted-syntax': ['off'],
+		'no-param-reassign': ['off'],
+		'no-use-before-define': ['error', {functions: false}],
+		'object-curly-newline': ['error', {multiline: true, consistent: true}],
+		'one-var-declaration-per-line': ['error', 'initializations'],
+		'prefer-destructuring': ['error',
+			{
+				VariableDeclarator: {array: false, object: true},
+				AssignmentExpression: {array: false, object: false}
+			},
+			{enforceForRenamedProperties: false}
+		],
+		'no-invalid-this': ['error'],
+		'no-underscore-dangle': ['off'],
+		'space-before-function-paren': ['error', {
+			anonymous: 'never',
+			named: 'never',
+			asyncArrow: 'always'
+		}],
+		'func-names': ['off'],
+		'object-shorthand': ['error', 'always', {
+			avoidQuotes: true,
+			ignoreConstructors: true,
+			avoidExplicitReturnArrows: true
 		}],
 
 		// eslint-comments rules
