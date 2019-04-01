@@ -20,14 +20,14 @@
     "eslint-plugin-eslint-comments": "^3.1.1"
   },
   "devDependencies": {
-    "@overlookmotel/eslint-config-tests": "^1.0.2",
+    "@overlookmotel/eslint-config-tests": "^1.0.3",
     "chai": "^4.2.0",
-    "coveralls": "^3.0.2",
+    "coveralls": "^3.0.3",
     "cross-env": "^5.2.0",
     "eslint": "^5.16.0",
     "eslint-plugin-chai-friendly": "^0.4.1",
     "istanbul": "^0.4.5",
-    "mocha": "^5.2.0"
+    "mocha": "^6.0.2"
   },
   "keywords": [
     "eslint",
