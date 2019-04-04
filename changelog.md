@@ -1,5 +1,16 @@
 # Changelog
 
+## 2.0.0
+
+Breaking changes:
+
+* Base on airbnb config
+
+Other:
+
+* Update dependencies
+* Lint this library with own config
+
 ## 1.1.1
 
 * README update
