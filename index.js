@@ -63,6 +63,7 @@ module.exports = {
 			anonymous: {before: false, after: false},
 			method: {before: false, after: false}
 		}],
+		'no-continue': ['off'],
 
 		// eslint-comments rules
 		'eslint-comments/no-unused-disable': ['error'],
