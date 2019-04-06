@@ -42,7 +42,7 @@
   ],
   "scripts": {
     "test": "npm run lint && npm run test-main",
-    "lint": "eslint '**/*.js' --ext .js",
+    "lint": "eslint *.js **/*.js --ext .js",
     "test-main": "mocha --check-leaks --colors -t 1000 -R spec 'test/**/*.test.js'",
     "cover": "npm run cover-main && rm -rf coverage",
     "coveralls": "npm run cover-main && cat ./coverage/lcov.info | coveralls && rm -rf ./coverage",
