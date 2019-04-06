@@ -1,5 +1,17 @@
 # Changelog
 
+## 2.1.0
+
+Rule changes:
+
+* Alter `generator-star-spacing` rule
+* Disable `no-continue` rule
+* `object-shorthand` rule disable `ignoreConstructors` option
+
+Other:
+
+* Lint `index.js`
+
 ## 2.0.0
 
 Breaking changes:
