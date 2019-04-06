@@ -57,6 +57,12 @@ module.exports = {
 			ignoreConstructors: true,
 			avoidExplicitReturnArrows: true
 		}],
+		'generator-star-spacing': ['error', {
+			before: false,
+			after: true,
+			anonymous: {before: false, after: false},
+			method: {before: false, after: false}
+		}],
 
 		// eslint-comments rules
 		'eslint-comments/no-unused-disable': ['error'],
