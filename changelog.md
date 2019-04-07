@@ -1,5 +1,11 @@
 # Changelog
 
+## 2.1.1
+
+Rule changes:
+
+* Disable `no-await-in-loop` rule
+
 ## 2.1.0
 
 Rule changes:
