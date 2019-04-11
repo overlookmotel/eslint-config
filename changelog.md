@@ -1,5 +1,11 @@
 # Changelog
 
+## 2.1.2
+
+Rule changes:
+
+* Disable `guard-for-in` rule
+
 ## 2.1.1
 
 Rule changes:
