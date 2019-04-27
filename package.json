@@ -13,8 +13,7 @@
   "bugs": {
     "url": "https://github.com/overlookmotel/eslint-config/issues"
   },
-  "dependencies": {
-  },
+  "dependencies": {},
   "peerDependencies": {
     "eslint": "^5.16.0",
     "eslint-config-airbnb-base": "^13.1.0",
