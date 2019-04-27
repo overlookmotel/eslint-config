@@ -1,5 +1,11 @@
 # Changelog
 
+## 3.0.0
+
+Rule changes:
+
+* `no-console` rule error not warning
+
 ## 2.1.2
 
 Rule changes:
