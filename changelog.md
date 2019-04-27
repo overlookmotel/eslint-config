@@ -1,5 +1,12 @@
 # Changelog
 
+## 3.0.2
+
+Dev:
+
+* Git ignore package-lock.json
+* Reformat package.json
+
 ## 3.0.1
 
 Dev:
