@@ -65,6 +65,7 @@ module.exports = {
 			anonymous: {before: false, after: false},
 			method: {before: false, after: false}
 		}],
+		'no-console': ['error'],
 		'no-continue': ['off'],
 		'no-await-in-loop': ['off'],
 		'guard-for-in': ['off'],
