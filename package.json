@@ -21,7 +21,7 @@
     "eslint-plugin-import": "^2.18.2"
   },
   "devDependencies": {
-    "@overlookmotel/eslint-config-tests": "^1.0.5",
+    "@overlookmotel/eslint-config-tests": "^2.0.0",
     "chai": "^4.2.0",
     "coveralls": "^3.0.5",
     "cross-env": "^5.2.0",
