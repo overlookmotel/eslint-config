@@ -1,5 +1,11 @@
 # Changelog
 
+## 4.0.1
+
+Dev:
+
+* Update dev dependencies
+
 ## 4.0.0
 
 Breaking changes:
