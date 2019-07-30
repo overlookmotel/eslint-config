@@ -1,5 +1,11 @@
 # Changelog
 
+## 4.1.0
+
+Rule changes:
+
+* Add `eslint-plugin-node`
+
 ## 4.0.1
 
 Dev:
