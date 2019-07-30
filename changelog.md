@@ -1,5 +1,18 @@
 # Changelog
 
+## 4.0.0
+
+Breaking changes:
+
+* Drop support for Node v6
+* Update peer dependencies
+
+Dev:
+
+* CI run tests on Node v12
+* `package-lock.json`
+* Update dev dependencies
+
 ## 3.0.2
 
 Dev:
