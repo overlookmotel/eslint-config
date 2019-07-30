@@ -6,6 +6,9 @@
 
 // Exports
 module.exports = {
+	plugins: [
+		'node'
+	],
 	env: {
 		node: true
 	},
@@ -14,7 +17,8 @@ module.exports = {
 	},
 	extends: [
 		'airbnb-base',
-		'plugin:eslint-comments/recommended'
+		'plugin:eslint-comments/recommended',
+		'plugin:node/recommended-script'
 	],
 	rules: {
 		// Alterations of airbnb rules
@@ -72,6 +76,14 @@ module.exports = {
 
 		// eslint-comments rules
 		'eslint-comments/no-unused-disable': ['error'],
-		'eslint-comments/disable-enable-pair': ['error', {allowWholeFile: true}]
+		'eslint-comments/disable-enable-pair': ['error', {allowWholeFile: true}],
+
+		// node rules
+		'node/exports-style': ['error', 'module.exports'],
+		'node/prefer-global/buffer': ['error', 'always'],
+		'node/prefer-global/console': ['error', 'always'],
+		'node/prefer-global/process': ['error', 'always'],
+		'node/prefer-global/url-search-params': ['error', 'always'],
+		'node/prefer-global/url': ['error', 'always']
 	}
 };
