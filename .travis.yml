@@ -4,6 +4,7 @@ script:
   - "npm run ci"
 
 node_js:
+  - "12"
   - "10"
   - "8"
 
