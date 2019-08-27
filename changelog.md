@@ -1,5 +1,11 @@
 # Changelog
 
+## 4.3.1
+
+Rule changes:
+
+* `arrow-parens` rule only brackets for block arrow functions
+
 ## 4.3.0
 
 Rule changes:
