@@ -75,6 +75,7 @@ module.exports = {
 		'guard-for-in': ['off'],
 		strict: ['error', 'global'],
 		'arrow-parens': ['error', 'as-needed', {requireForBlockBody: true}],
+		'max-classes-per-file': ['off'],
 
 		// eslint-comments rules
 		'eslint-comments/no-unused-disable': ['error'],
