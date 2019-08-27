@@ -73,6 +73,7 @@ module.exports = {
 		'no-continue': ['off'],
 		'no-await-in-loop': ['off'],
 		'guard-for-in': ['off'],
+		strict: ['error', 'global'],
 
 		// eslint-comments rules
 		'eslint-comments/no-unused-disable': ['error'],
