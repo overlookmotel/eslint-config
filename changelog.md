@@ -1,5 +1,11 @@
 # Changelog
 
+## 4.3.2
+
+Rule changes:
+
+* Disable `max-classes-per-file` rule
+
 ## 4.3.1
 
 Rule changes:
