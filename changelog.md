@@ -1,5 +1,11 @@
 # Changelog
 
+## 4.3.0
+
+Rule changes:
+
+* `strict` rule global option
+
 ## 4.2.0
 
 Rule changes:
