@@ -74,6 +74,7 @@ module.exports = {
 		'no-await-in-loop': ['off'],
 		'guard-for-in': ['off'],
 		strict: ['error', 'global'],
+		'arrow-parens': ['error', 'as-needed', {requireForBlockBody: true}],
 
 		// eslint-comments rules
 		'eslint-comments/no-unused-disable': ['error'],
