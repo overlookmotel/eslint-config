@@ -22,10 +22,10 @@
     "eslint-plugin-node": "^10.0.0"
   },
   "devDependencies": {
-    "@overlookmotel/eslint-config-tests": "^2.0.1",
+    "@overlookmotel/eslint-config-tests": "^2.1.0",
     "chai": "^4.2.0",
-    "coveralls": "^3.0.6",
-    "cross-env": "^5.2.0",
+    "coveralls": "^3.0.7",
+    "cross-env": "^6.0.3",
     "eslint": "^6.6.0",
     "eslint-config-airbnb-base": "^14.0.0",
     "eslint-plugin-chai-friendly": "^0.4.1",
@@ -33,7 +33,7 @@
     "eslint-plugin-import": "^2.18.2",
     "eslint-plugin-node": "^10.0.0",
     "istanbul": "^0.4.5",
-    "mocha": "^6.2.0"
+    "mocha": "^6.2.2"
   },
   "keywords": [
     "eslint",
