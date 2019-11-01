@@ -1,5 +1,11 @@
 # Changelog
 
+## 5.0.1
+
+Dev:
+
+* Update dev dependencies
+
 ## 5.0.0
 
 Breaking changes:
