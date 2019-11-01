@@ -22,7 +22,7 @@
     "eslint-plugin-node": "^10.0.0"
   },
   "devDependencies": {
-    "@overlookmotel/eslint-config-tests": "^2.1.0",
+    "@overlookmotel/eslint-config-tests": "^3.0.0",
     "chai": "^4.2.0",
     "coveralls": "^3.0.7",
     "cross-env": "^6.0.3",
