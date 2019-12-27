@@ -6,19 +6,9 @@
 
 // Exports
 module.exports = {
-	plugins: [
-		'node'
-	],
-	env: {
-		node: true
-	},
-	parserOptions: {
-		sourceType: 'script'
-	},
 	extends: [
 		'airbnb-base',
-		'plugin:eslint-comments/recommended',
-		'plugin:node/recommended-script'
+		'plugin:eslint-comments/recommended'
 	],
 	rules: {
 		// Alterations of airbnb rules
@@ -73,20 +63,11 @@ module.exports = {
 		'no-continue': ['off'],
 		'no-await-in-loop': ['off'],
 		'guard-for-in': ['off'],
-		strict: ['error', 'global'],
 		'arrow-parens': ['error', 'as-needed', {requireForBlockBody: true}],
 		'max-classes-per-file': ['off'],
 
 		// eslint-comments rules
 		'eslint-comments/no-unused-disable': ['error'],
-		'eslint-comments/disable-enable-pair': ['error', {allowWholeFile: true}],
-
-		// node rules
-		'node/exports-style': ['error', 'module.exports'],
-		'node/prefer-global/buffer': ['error', 'always'],
-		'node/prefer-global/console': ['error', 'always'],
-		'node/prefer-global/process': ['error', 'always'],
-		'node/prefer-global/url-search-params': ['error', 'always'],
-		'node/prefer-global/url': ['error', 'always']
+		'eslint-comments/disable-enable-pair': ['error', {allowWholeFile: true}]
 	}
 };
