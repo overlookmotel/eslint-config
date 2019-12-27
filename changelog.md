@@ -1,5 +1,16 @@
 # Changelog
 
+## 6.0.0
+
+Breaking changes:
+
+* Remove Node-specific functionality (use `@overlookmotel/eslint-config-node`)
+* Update ESLint peer dependencies
+
+Dev:
+
+* Update dev dependencies
+
 ## 5.0.1
 
 Dev:
