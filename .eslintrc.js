@@ -1,3 +1,8 @@
 'use strict';
 
-module.exports = require('./index');
+module.exports = {
+	extends: [
+		'./index',
+		'@overlookmotel/eslint-config-node'
+	]
+};
