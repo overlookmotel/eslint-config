@@ -14,7 +14,7 @@ module.exports = {
 		// Alterations of airbnb rules
 		'max-len': ['error', {
 			code: 105,
-			tabWidth: 4,
+			tabWidth: 2,
 			ignoreStrings: true,
 			ignoreTemplateLiterals: true,
 			ignoreRegExpLiterals: true,
