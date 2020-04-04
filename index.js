@@ -64,6 +64,9 @@ module.exports = {
 		'arrow-parens': ['error', 'as-needed', {requireForBlockBody: true}],
 		'max-classes-per-file': ['off'],
 
+		// import rules
+		'import/extensions': ['error', 'ignorePackages'],
+
 		// eslint-comments rules
 		'eslint-comments/no-unused-disable': ['error'],
 		'eslint-comments/disable-enable-pair': ['error', {allowWholeFile: true}]
