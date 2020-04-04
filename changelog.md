@@ -1,5 +1,11 @@
 # Changelog
 
+## 7.1.2
+
+Docs:
+
+* Fix missing changelog entry [fix]
+
 ## 7.1.1
 
 No code:
