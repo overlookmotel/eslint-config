@@ -2,7 +2,7 @@
 
 module.exports = {
 	extends: [
-		'./index',
+		'./index.js',
 		'@overlookmotel/eslint-config-node'
 	]
 };
