@@ -1,5 +1,11 @@
 # Changelog
 
+## 7.1.0
+
+Rule changes:
+
+* Tab width of 2 not 4
+
 ## 7.0.0
 
 Breaking changes:
