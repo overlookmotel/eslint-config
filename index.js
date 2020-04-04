@@ -48,9 +48,7 @@ module.exports = {
 		'func-names': ['off'],
 		'object-shorthand': ['error', 'always', {
 			avoidQuotes: true,
-			// Would prefer `ignoreConstructors: true` but bug in ESLint:
-			// https://github.com/eslint/eslint/issues/11595
-			ignoreConstructors: false,
+			ignoreConstructors: true,
 			avoidExplicitReturnArrows: true
 		}],
 		'generator-star-spacing': ['error', {
