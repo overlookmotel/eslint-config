@@ -1,5 +1,31 @@
 # Changelog
 
+## 7.0.0
+
+Breaking changes:
+
+* Update ESLint peer dependencies
+
+Rule changes:
+
+* Enforce `import/extensions` rule
+* Relax `object-shorthand` rule with `ignoreConstructors` option
+
+Refactor:
+
+* File extensions on imports
+
+Dev:
+
+* Update dev dependencies
+* ESLint ignore coverage dir
+* Update `.gitignore` + `.npmignore`
+
+Docs:
+
+* Versioning policy
+* Update license year
+
 ## 6.0.0
 
 Breaking changes:
