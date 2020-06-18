@@ -3,6 +3,7 @@
   "version": "7.1.2",
   "description": "@overlookmotel's ESLint config",
   "main": "index.js",
+  "files": [],
   "author": {
     "name": "Overlook Motel"
   },
