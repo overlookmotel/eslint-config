@@ -1,5 +1,25 @@
 # Changelog
 
+## 7.1.3
+
+Features:
+
+* Drop support for Node v8
+
+Dependencies:
+
+* Update peer dependencies
+
+Dev:
+
+* CI run tests on Node v14
+* Simplify lint scripts
+* Update dev dependencies
+* `.editorconfig` config
+* Replace `.npmignore` with `files` list in `package.json`
+* Remove `sudo` key from Travis CI config
+* Travis CI cache NPM
+
 ## 7.1.2
 
 Docs:
