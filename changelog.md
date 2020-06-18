@@ -1,5 +1,11 @@
 # Changelog
 
+## 7.2.0
+
+Tests:
+
+* Import module by name [refactor]
+
 ## 7.1.4
 
 Dev:
