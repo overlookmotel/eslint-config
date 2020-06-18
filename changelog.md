@@ -1,5 +1,11 @@
 # Changelog
 
+## 7.2.1
+
+Tests:
+
+* Import module by name [fix]
+
 ## 7.2.0
 
 Tests:
