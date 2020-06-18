@@ -6,15 +6,10 @@
 'use strict';
 
 // Modules
-const chai = require('chai'),
-	{expect} = chai,
-	eslintConfig = require('../index.js');
-
-// Init
-chai.config.includeStack = true;
+const eslintConfig = require('../index.js');
 
 // Tests
 
-it('Exports an object', () => {
-	expect(eslintConfig).to.be.an('object');
+it('Exports an object', () => { // eslint-disable-line jest/lowercase-name
+	expect(eslintConfig).toBeObject();
 });
