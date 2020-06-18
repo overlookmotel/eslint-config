@@ -1,5 +1,11 @@
 # Changelog
 
+## 7.1.4
+
+Dev:
+
+* Replace Mocha + Chai with Jest
+
 ## 7.1.3
 
 Features:
