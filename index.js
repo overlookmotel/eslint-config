@@ -11,6 +11,9 @@ module.exports = {
 		'airbnb-base',
 		'plugin:eslint-comments/recommended'
 	],
+	parserOptions: {
+		ecmaVersion: 2021
+	},
 	rules: {
 		// Alterations of airbnb rules
 		'max-len': ['error', {
