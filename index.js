@@ -67,6 +67,7 @@ module.exports = {
 		'guard-for-in': ['off'],
 		'arrow-parens': ['error', 'as-needed', {requireForBlockBody: true}],
 		'max-classes-per-file': ['off'],
+		'no-nested-ternary': ['off'],
 
 		// import rules
 		'import/extensions': ['error', 'ignorePackages'],
