@@ -1,5 +1,11 @@
 # Changelog
 
+## Next
+
+Features:
+
+* Add JSDoc rules [major]
+
 ## 8.0.0
 
 Breaking changes:
