@@ -1,8 +1,8 @@
 # Changelog
 
-## Next
+## 9.0.0
 
-Features:
+Breaking changes:
 
 * Add JSDoc rules [major]
 
