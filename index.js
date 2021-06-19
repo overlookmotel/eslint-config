@@ -14,6 +14,18 @@ module.exports = {
 	parserOptions: {
 		ecmaVersion: 2021
 	},
+	// Parse `.mjs` files as ES Modules.
+	// Would be ideal to also interpret `.js` files in a directory with `package.json` containing
+	// `"type": "module"` as ESM, but this is not currently supported by ESLint.
+	// https://github.com/eslint/eslint/issues/14727
+	overrides: [
+		{
+			files: ['*.mjs'],
+			parserOptions: {
+				sourceType: 'module'
+			}
+		}
+	],
 	rules: {
 		// Alterations of airbnb rules
 		'max-len': ['error', {
