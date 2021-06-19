@@ -1,5 +1,11 @@
 # Changelog
 
+## 9.0.1
+
+No code:
+
+* Linting fixes
+
 ## 9.0.0
 
 Breaking changes:
