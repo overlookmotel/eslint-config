@@ -1,5 +1,36 @@
 # Changelog
 
+## 8.0.0
+
+Breaking changes:
+
+* Disable `no-nested-ternary` rule
+* Disable `no-return-await` rule
+* Parser `ecmaVersion` 2021
+
+Bug fixes:
+
+* Parse `.mjs` files as ES Modules
+
+Features:
+
+* Drop support for Node v10
+
+Dependencies:
+
+* Update peer dependencies
+
+Dev:
+
+* Use Github Actions for CI
+* Update dev dependencies
+
+Docs:
+
+* Remove Greenkeeper badge
+* Update license year
+* Remove license indentation
+
 ## 7.2.1
 
 Tests:
