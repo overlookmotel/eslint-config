@@ -68,6 +68,7 @@ module.exports = {
 		'arrow-parens': ['error', 'as-needed', {requireForBlockBody: true}],
 		'max-classes-per-file': ['off'],
 		'no-nested-ternary': ['off'],
+		'no-return-await': ['off'],
 
 		// import rules
 		'import/extensions': ['error', 'ignorePackages'],
