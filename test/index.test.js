@@ -1,5 +1,5 @@
 /* --------------------
- * @overlookmotel/eslint-config module
+ * `@overlookmotel/eslint-config` module
  * Tests
  * ------------------*/
 
