@@ -1,5 +1,12 @@
 # Changelog
 
+## 9.0.3
+
+Dev:
+
+* Use NPM v7 for development
+* CI run lint and coverage with Node v16
+
 ## 9.0.2
 
 Bug fixes:
