@@ -10,16 +10,19 @@ ESLint config for Javascript apps/libraries. Based on [eslint-config-airbnb-base
 
 ## Usage
 
+Add to `.eslintrc`: `"extends": "@overlookmotel/eslint-config"`
+
 Add dev dependencies in `package.json`:
 
 * `@overlookmotel/eslint-config`
 * `eslint`
+
+If using NPM before v7, additionally add peer dependencies as dev dependencies in `package.json`:
+
 * `eslint-config-airbnb-base`
 * `eslint-plugin-eslint-comments`
 * `eslint-plugin-import`
 * `eslint-plugin-jsdoc`
-
-Add to `.eslintrc`: `"extends": "@overlookmotel/eslint-config"`
 
 ## Tests
 
