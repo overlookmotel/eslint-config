@@ -1,5 +1,12 @@
 # Changelog
 
+## 9.0.4
+
+Dev:
+
+* Fix `package-lock.json` version
+* Update dev dependencies
+
 ## 9.0.3
 
 Dev:
