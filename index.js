@@ -100,10 +100,6 @@ module.exports = {
 
 		// jsdoc rules
 		// Comprises all `eslint-plugin-jsdoc`'s rules, except those flagged as "Disabled" below.
-		// `returnsProp` tag is used for typing properties of return values of functions which return
-		// an Object which various properties (essentially multiple return values).
-		// This is not JSDoc syntax, but can't find a way to support multiple return values
-		// with `eslint-plugin-jsdoc`.
 		'jsdoc/check-access': ['error'],
 		'jsdoc/check-alignment': ['error'],
 		'jsdoc/check-examples': ['error'],
@@ -112,7 +108,7 @@ module.exports = {
 		'jsdoc/check-param-names': ['error'],
 		'jsdoc/check-property-names': ['error'],
 		'jsdoc/check-syntax': ['error'],
-		'jsdoc/check-tag-names': ['error', {definedTags: ['returnsProp']}],
+		'jsdoc/check-tag-names': ['error'],
 		'jsdoc/check-types': ['error'],
 		'jsdoc/check-values': ['error'],
 		'jsdoc/empty-tags': ['error'],
