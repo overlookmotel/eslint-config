@@ -1,5 +1,11 @@
 # Changelog
 
+## 9.0.2
+
+Bug fixes:
+
+* Remove `returnsProp` JSDoc tag rule
+
 ## 9.0.1
 
 No code:
