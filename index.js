@@ -90,6 +90,7 @@ module.exports = {
 		'max-classes-per-file': ['off'],
 		'no-nested-ternary': ['off'],
 		'no-return-await': ['off'],
+		'no-multi-assign': ['off'],
 
 		// import rules
 		'import/extensions': ['error', 'ignorePackages'],
