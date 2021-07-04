@@ -1,5 +1,15 @@
 # Changelog
 
+## 9.0.6
+
+Dependencies:
+
+* Update peer dependencies
+
+Dev:
+
+* Update dev dependencies
+
 ## 9.0.5
 
 Rule changes:
