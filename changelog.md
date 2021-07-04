@@ -1,5 +1,11 @@
 # Changelog
 
+## 9.0.5
+
+Rule changes:
+
+* Disable `no-multi-assign` rule
+
 ## 9.0.4
 
 Dev:

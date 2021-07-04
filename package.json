@@ -1,6 +1,6 @@
 {
   "name": "@overlookmotel/eslint-config",
-  "version": "9.0.4",
+  "version": "9.0.5",
   "description": "@overlookmotel's ESLint config",
   "main": "index.js",
   "files": [],
