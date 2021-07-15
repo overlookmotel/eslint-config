@@ -1,5 +1,15 @@
 # Changelog
 
+## 9.0.7
+
+Bug fixes:
+
+* Enable `commonjs` option on `import/no-unresolved` rule
+
+Dependencies:
+
+* Update peer dependencies
+
 ## 9.0.6
 
 Dependencies:
