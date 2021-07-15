@@ -94,6 +94,7 @@ module.exports = {
 
 		// import rules
 		'import/extensions': ['error', 'ignorePackages'],
+		'import/no-unresolved': ['error', {commonjs: true}],
 
 		// eslint-comments rules
 		'eslint-comments/no-unused-disable': ['error'],
