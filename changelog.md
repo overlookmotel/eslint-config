@@ -2,9 +2,18 @@
 
 ## 10.0.0
 
-Dependencies:
+Breaking changes:
 
 * Update to ESLint 8
+
+Dev:
+
+* Run tests on CI on Node v17
+* Clean up after `cover` NPM script even if fails
+
+Docs:
+
+* Update license year
 
 ## 9.0.7
 
