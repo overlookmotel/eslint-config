@@ -1,5 +1,15 @@
 # Changelog
 
+## 10.0.1
+
+Dev:
+
+* Update dev dependencies
+
+Docs:
+
+* Fix changelog
+
 ## 10.0.0
 
 Breaking changes:
