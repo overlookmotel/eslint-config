@@ -71,6 +71,8 @@ module.exports = {
 			asyncArrow: 'always'
 		}],
 		'func-names': ['off'],
+		'function-paren-newline': ['off'],
+		'function-call-argument-newline': ['off'],
 		'object-shorthand': ['error', 'always', {
 			avoidQuotes: true,
 			ignoreConstructors: true,
@@ -104,7 +106,9 @@ module.exports = {
 		// Comprises all `eslint-plugin-jsdoc`'s rules, except those flagged as "Disabled" below.
 		'jsdoc/check-access': ['error'],
 		'jsdoc/check-alignment': ['error'],
-		'jsdoc/check-examples': ['error'],
+		// Disabled as not currently compatible with ESLint 8.
+		// See https://github.com/gajus/eslint-plugin-jsdoc/#eslint-plugin-jsdoc-rules-check-examples
+		'jsdoc/check-examples': ['off'], // Disabled
 		// 'jsdoc/check-indentation': ['error'], // Disabled
 		'jsdoc/check-line-alignment': ['error'],
 		'jsdoc/check-param-names': ['error'],
