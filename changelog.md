@@ -1,5 +1,11 @@
 # Changelog
 
+## 10.0.0
+
+Dependencies:
+
+* Update to ESLint 8
+
 ## 9.0.7
 
 Bug fixes:
