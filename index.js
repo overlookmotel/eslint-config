@@ -84,6 +84,7 @@ module.exports = {
 			anonymous: {before: false, after: false},
 			method: {before: false, after: false}
 		}],
+		'lines-between-class-members': ['error', 'always', {exceptAfterSingleLine: true}],
 		'no-console': ['error'],
 		'no-continue': ['off'],
 		'no-await-in-loop': ['off'],
