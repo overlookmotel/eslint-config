@@ -1,5 +1,12 @@
 # Changelog
 
+## 10.0.2
+
+Rule changes:
+
+* Amend `lines-between-class-members` rule
+* JSDoc prefer `@extends` for classes
+
 ## 10.0.1
 
 Dev:
