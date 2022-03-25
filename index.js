@@ -32,6 +32,10 @@ module.exports = {
 			preferredTypes: {
 				// Use `{Object}` not `{object}` type for JSDoc params + return values
 				object: {replacement: 'Object'}
+			},
+			tagNamePreference: {
+				// Use `@extends` for classes instead of `@augments`
+				augments: 'extends'
 			}
 		}
 	},
