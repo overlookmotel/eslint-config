@@ -49,7 +49,7 @@ module.exports = {
 			ignoreRegExpLiterals: true,
 			ignoreUrls: true
 		}],
-		indent: ['error', 'tab'],
+		indent: ['error', 'tab', {SwitchCase: 1}],
 		'no-tabs': ['error', {allowIndentationTabs: true}],
 		'comma-dangle': ['error', 'never'],
 		'object-curly-spacing': ['error', 'never'],
