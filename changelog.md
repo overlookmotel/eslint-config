@@ -1,5 +1,11 @@
 # Changelog
 
+## 10.0.3
+
+Rule changes:
+
+* `indent` rule: Indent `switch` cases
+
 ## 10.0.2
 
 Rule changes:
