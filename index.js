@@ -12,7 +12,7 @@ module.exports = {
 		'plugin:eslint-comments/recommended'
 	],
 	parserOptions: {
-		ecmaVersion: 2021
+		ecmaVersion: 'latest'
 	},
 	// Parse `.mjs` files as ES Modules.
 	// Would be ideal to also interpret `.js` files in a directory with `package.json` containing
