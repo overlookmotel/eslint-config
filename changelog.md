@@ -1,5 +1,29 @@
 # Changelog
 
+## 10.1.0
+
+Features:
+
+* Parse latest syntax
+
+Minor:
+
+* Drop support for Node v12
+* Drop support for Node v17
+
+Dependencies:
+
+* Update peer dependencies
+
+Dev:
+
+* Update dev dependencies
+* CI run tests on Node v18 + v19
+
+Docs:
+
+* Remove David badges from README
+
 ## 10.0.3
 
 Rule changes:
